@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on FLLC-ICPR2020</title>
+    <link>https://FLLC-ICPR2020.github.io/post/</link>
+    <description>Recent content in Posts on FLLC-ICPR2020</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Mar 2020 00:01:07 +0800</lastBuildDate>
+    
+	<atom:link href="https://FLLC-ICPR2020.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Home</title>
+      <link>https://FLLC-ICPR2020.github.io/post/home/</link>
+      <pubDate>Fri, 13 Mar 2020 00:01:07 +0800</pubDate>
+      
+      <guid>https://FLLC-ICPR2020.github.io/post/home/</guid>
+      <description>Introduction As the deep learning methods have been largely developed in facial landmark localization task, the requirements of practical applications are growing fast. However, for large poses and occlusion, the accuracy of localization needs to be improved. Here, JD AI Research and NLPR, CASIA sincerely invited researchers and developers from academia and industry to participate in this competition and encourage further discussion on technical and application issues.
+Official email: facial_lmgc_icme@163.com</description>
+    </item>
+    
+  </channel>
+</rss>

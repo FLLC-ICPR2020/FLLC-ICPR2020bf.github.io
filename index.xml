@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FLLC-ICPR2020</title>
+    <link>https://FLLC-ICPR2020.github.io/</link>
+    <description>Recent content on FLLC-ICPR2020</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Mar 2020 21:01:41 +0800</lastBuildDate>
+    
+	<atom:link href="https://FLLC-ICPR2020.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Home</title>
+      <link>https://FLLC-ICPR2020.github.io/post/home/</link>
+      <pubDate>Fri, 13 Mar 2020 00:01:07 +0800</pubDate>
+      
+      <guid>https://FLLC-ICPR2020.github.io/post/home/</guid>
+      <description>Introduction As the deep learning methods have been largely developed in facial landmark localization task, the requirements of practical applications are growing fast. However, for large poses and occlusion, the accuracy of localization needs to be improved. Here, JD AI Research and NLPR, CASIA sincerely invited researchers and developers from academia and industry to participate in this competition and encourage further discussion on technical and application issues.
+Official email: facial_lmgc_icme@163.com</description>
+    </item>
+    
+    <item>
+      <title>FLLC-ICPR2020</title>
+      <link>https://FLLC-ICPR2020.github.io/home/</link>
+      <pubDate>Wed, 11 Mar 2020 21:01:41 +0800</pubDate>
+      
+      <guid>https://FLLC-ICPR2020.github.io/home/</guid>
+      <description>Introduction As the deep learning methods have been largely developed in facial landmark localization task, the requirements of practical applications are growing fast. However, for large poses and occlusion, the accuracy of localization needs to be improved. Here, JD AI Research and NLPR, CASIA sincerely invited researchers and developers from academia and industry to participate in this competition and encourage further discussion on technical and application issues.
+Official email: facial_lmgc_icme@163.com</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://FLLC-ICPR2020.github.io/dataset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://FLLC-ICPR2020.github.io/dataset/</guid>
+      <description>1. Dataset Overview 1.1 Volume The dataset contains 50,000 images with elaborated pixel-wise annotations with 19 semantic human part labels and 2D human poses with 16 key points.
+1.2 Diversity The annotated 50,000 images are cropped person instances from COCO dataset with size larger than 50 * 50.The images collected from the real-world scenarios contain human appearing with challenging poses and views, heavily occlusions, various appearances and low-resolutions. We are working on collecting and annotating more images to increase diversity.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://FLLC-ICPR2020.github.io/leaderboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://FLLC-ICPR2020.github.io/leaderboard/</guid>
+      <description>Overview We offer a benchmark suite together with an evaluation server, such that authors can upload their results and get a ranking. We offer a Dataset that contains more than 50000 pictures, including 30462 images for training set, 10000 images for validation set and 10000 images for test set. If you would like to submit your results, please register, login, and follow the instructions on our submission page.
+Note: We only display the highest submission of each person.</description>
+    </item>
+    
+  </channel>
+</rss>
