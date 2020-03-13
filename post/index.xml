@@ -17,8 +17,7 @@
       <pubDate>Fri, 13 Mar 2020 00:01:07 +0800</pubDate>
       
       <guid>https://FLLC-ICPR2020.github.io/post/home/</guid>
-      <description>Introduction As the deep learning methods have been largely developed in facial landmark localization task, the requirements of practical applications are growing fast. However, for large poses and occlusion, the accuracy of localization needs to be improved. Here, JD AI Research and NLPR, CASIA sincerely invited researchers and developers from academia and industry to participate in this competition and encourage further discussion on technical and application issues.
-Official email: facial_lmgc_icme@163.com</description>
+      <description>Latest News  The 2nd grand challenge of 106-point facial landmark localization will be held in conjunction with the International Conference on Pattern Recognition (ICPR) 2020, Milan, Italy.  Introduction Facial landmark localization is a very crucial step in numerous face related applications, such as face recognition, facial pose estimation, face image synthesis, etc. We hold the 2nd lightweight 106-point facial landmark localization competition in conjunction with ICPR 2020. The purpose is to make effort towards benchmarking lightweight facial landmark localization, which enable efficient system deployment.</description>
     </item>
     
   </channel>

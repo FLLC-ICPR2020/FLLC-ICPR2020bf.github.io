@@ -27,7 +27,7 @@
 <body>
   <section class="page-header">
   <h1 class="project-name">
-    2nd Grand Challenge of 106-point Facial Landmark Localization
+    2<!-- raw HTML omitted -->nd<!-- raw HTML omitted --> Grand Challenge of Lightweight 106-Point Facial Landmark Localization
   </h1>
   <h2 class="project-tagline">
     ICPR 2020, Milan,Italy,13 Sep,2020
@@ -65,12 +65,20 @@
   <section class="main-content">
     
   <h1></h1>
-  <h2 id="1-dataset-overview">1. Dataset Overview</h2>
-<h3 id="11-volume">1.1 Volume</h3>
-<p>The dataset contains 50,000 images with elaborated pixel-wise annotations with 19 semantic human part labels and 2D human poses with 16 key points.</p>
-<h3 id="12-diversity">1.2 Diversity</h3>
-<p>The annotated 50,000 images are cropped person instances from COCO dataset with size larger than 50 * 50.The images collected from the real-world scenarios contain human appearing with challenging poses and views, heavily occlusions, various appearances and low-resolutions. We are working on collecting and annotating more images to increase diversity.</p>
-<h2 id="2download">2.Download</h2>
+  <h1 id="training-data">Training data:</h1>
+<p>The dataset is an incremental of JD-landmark[1], consisting of *** images with 106-point landmark annotation. 
+The images and landmarks will be released on 2020/3/30.</p>
+<p><strong>Download Link:</strong></p>
+<h1 id="validation-data">Validation data:</h1>
+<p>It consists of 2000 images, covering large variations of pose, expression and occlusion, are selected from open source web face dataset [2]. During the validation phase, the participants could send the predicted results of the validation images to (email). We will return the results to the participants and update the leaderboard.
+The images will be released on 2020/4/7.</p>
+<p><strong>Download Link:</strong></p>
+<h1 id="test-data">Test data:</h1>
+<p>It contains 2,000 web face images as well. The test images will be released on 2020/6/24, and the participants have one day to evaluation on this set. The results must be sent before 2020/6/25, which will be used for the final rank.
+The images will be released on 2020/6/24.</p>
+<p><strong>Download Link:</strong></p>
+<h1 id="note">Note:</h1>
+<p>We provide the bounding boxes obtained by our detector for training/validation/test sets. However, participants have the choice of employing other face detectors.</p>
 
 
     <footer class="site-footer">
