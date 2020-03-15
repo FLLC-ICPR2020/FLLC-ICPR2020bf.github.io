@@ -67,12 +67,12 @@
   <h1></h1>
   <h2 id="detail-requirements">Detail Requirements</h2>
 <ul>
-<li>The upper bound of computational complexity is 1G FLOPs.</li>
+<li>The upper bound of computational complexity is 1 GFLOPs.</li>
 <li>The upper bound of model size is 20MB.</li>
-<li>We provide the bounding boxes obtained by our detector for training/validation/test sets. However, participants have the choice of employing other face detectors.</li>
-<li>Except for the face detectors, any external datasets and models are not allowed. Any test augmentation is prohibited. The multi-model ensemble strategy is also not allowed.</li>
-<li>During the validation phase, participants need send the the landmark files (.txt) with the same format of the training data to <a href="mailto:FLLC_ICPR2020@163.com">FLLC_ICPR2020@163.com</a>, and we will return the results to the participants and update the leaderboard. Each team can only submit once one day.</li>
-<li>The test images will be released on June 24, 2020 [00:00 a.m. Central European Standard Time], and each team will have 24 hours to predict the test results. Both the predicted test results and the training materials (codes, models and technical reports) need to be sent to us before June 25, 2020 [00:00 a.m. Central European Standard Time]. We will re-implement the method to verify the correctness. Any team that we cannot reproduce the corresponding results will be disqualified.</li>
+<li>We provide the bounding boxes obtained by our detector for training/validation/test sets. The participants are also allowed to employ their own face detectors.</li>
+<li>Except for the face detectors, any external datasets and models are not allowed. Any test augmentation and multi-model ensemble strategy is also not allowed.</li>
+<li>During the validation phase, participants need send the landmark files (.txt) with the same format of the training data to <a href="mailto:FLLC_ICPR2020@163.com">FLLC_ICPR2020@163.com</a>, and we will return the results to the participants and update the leaderboard. Each team can only submit once per day. One can refer to the Grand Challenge website for the evaluation metric.</li>
+<li>The test images will be released on June 24, 2020 [00:00 a.m. UTC+1], and each team will have 24 hours to predict the test results. Both the predicted test results and the training materials (codes, models and technical reports) need to be sent to us before June 25, 2020 [00:00 a.m. UTC+1]. We will re-implement the method to verify the correctness. Any team whose results that we cannot reproduce will be disqualified.</li>
 </ul>
 <h2 id="evaluation-criterion">Evaluation Criterion</h2>
 <p>Submissions will be evaluated on the area-under-the-curve (AUC) from the cumulative errors distribution (CED) curves. Besides, further statistics from the CED curves such as the failure rate and average normalized mean error (NME) will also be returned to the participants for inclusion in their papers.
