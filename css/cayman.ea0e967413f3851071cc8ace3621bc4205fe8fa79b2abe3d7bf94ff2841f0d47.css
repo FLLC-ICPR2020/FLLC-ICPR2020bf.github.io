@@ -83,9 +83,13 @@ a {
     .project-tagline {
       font-size: 1rem; } }
 .main-content {
-  word-wrap: word-break; }
+  word-wrap: word-break; 
+  text-align: justify;
+  text-align-last: justify;}
   .main-content :first-child {
-    margin-top: 0; }
+    margin-top: 0; 
+	text-align: justify;
+    text-align-last: justify;}
   @media screen and (min-width: 64em) {
     .main-content {
       max-width: 64rem;
@@ -111,7 +115,9 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: #159957; }
+    color: #159957;
+    text-align: justify;
+    text-align-last: justify;	}
   .main-content p {
     margin-bottom: 1em; }
   .main-content code {
