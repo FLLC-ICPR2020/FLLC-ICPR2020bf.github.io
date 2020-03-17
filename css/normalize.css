@@ -256,9 +256,6 @@ textarea {
   color: inherit; /* 1 */
   font: inherit; /* 2 */
   margin: 0; /* 3 */
-  display: inline-block;
-  text-align:justify;
-  text-align-last:justify;
 }
 
 /**
@@ -398,9 +395,6 @@ legend {
 
 textarea {
   overflow: auto;
-  display: inline-block;
-  text-align:justify;
-  text-align-last:justify;
 }
 
 /**
