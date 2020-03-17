@@ -7,7 +7,10 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #606c71; 
+  display: inline-block;
+  text-align:justify;
+  text-align-last:justify;}
 
 a {
   color: #1e6bb8;
@@ -84,26 +87,37 @@ a {
       font-size: 1rem; } }
 .main-content {
   word-wrap: word-break; 
-  text-align: justify;
-  text-align-last: justify;}
+  display: inline-block;
+  text-align:justify;
+  text-align-last:justify;}
   .main-content :first-child {
     margin-top: 0; 
-	text-align: justify;
-    text-align-last: justify;}
+	display: inline-block;
+    text-align:justify;
+    text-align-last:justify;}
   @media screen and (min-width: 64em) {
     .main-content {
       max-width: 64rem;
       padding: 2rem 6rem;
       margin: 0 auto;
-      font-size: 1.1rem; } }
+      font-size: 1.1rem;
+      display: inline-block;
+      text-align:justify;
+      text-align-last:justify;	  } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .main-content {
       padding: 2rem 4rem;
-      font-size: 1.1rem; } }
+      font-size: 1.1rem;
+      display: inline-block;
+      text-align:justify;
+      text-align-last:justify;	  } }
   @media screen and (max-width: 42em) {
     .main-content {
       padding: 2rem 1rem;
-      font-size: 1rem; } }
+      font-size: 1rem; 
+	  display: inline-block;
+      text-align:justify;
+      text-align-last:justify;} }
   .main-content img {
     max-width: 100%; }
   .main-content h1,
@@ -116,8 +130,9 @@ a {
     margin-bottom: 1rem;
     font-weight: normal;
     color: #159957;
-    text-align: justify;
-    text-align-last: justify;	}
+    display: inline-block;
+    text-align:justify;
+    text-align-last:justify;	}
   .main-content p {
     margin-bottom: 1em; }
   .main-content code {
@@ -127,7 +142,9 @@ a {
     color: #567482;
     background-color: #f3f6fa;
     border-radius: 0.3rem;
-    text-align-last: justify;	}
+    display: inline-block;
+    text-align:justify;
+    text-align-last:justify;	}
   .main-content pre {
     padding: 0.8rem;
     margin-top: 0;
@@ -138,7 +155,9 @@ a {
     background-color: #f3f6fa;
     border: solid 1px #dce6f0;
     border-radius: 0.3rem;
-    text-align-last: justify;	}
+    display: inline-block;
+    text-align:justify;
+    text-align-last:justify;	}
     .main-content pre > code {
       padding: 0;
       margin: 0;
@@ -148,13 +167,17 @@ a {
       white-space: pre;
       background: transparent;
       border: 0;
-      text-align-last: justify;	  }
+      display: inline-block;
+      text-align:justify;
+      text-align-last:justify;	  }
   .main-content .highlight {
     margin-bottom: 1rem; }
     .main-content .highlight pre {
       margin-bottom: 0;
       word-break: normal; 
-	  text-align-last: justify;}
+	  display: inline-block;
+      text-align:justify;
+      text-align-last:justify;}
   .main-content .highlight pre,
   .main-content pre {
     padding: 0.8rem;
@@ -162,7 +185,9 @@ a {
     font-size: 0.9rem;
     line-height: 1.45;
     border-radius: 0.3rem;
-	text-align-last: justify;
+	display: inline-block;
+    text-align:justify;
+    text-align-last:justify;
     -webkit-overflow-scrolling: touch; }
   .main-content pre code,
   .main-content pre tt {
@@ -175,7 +200,9 @@ a {
     word-wrap: normal;
     background-color: transparent;
     border: 0;
-    text-align-last: justify;	}
+    display: inline-block;
+    text-align:justify;
+    text-align-last:justify;	}
     .main-content pre code:before, .main-content pre code:after,
     .main-content pre tt:before,
     .main-content pre tt:after {
@@ -188,7 +215,9 @@ a {
     margin-left: 0;
     color: #819198;
     border-left: 0.3rem solid #dce6f0; 
-	text-align-last: justify;}
+	display: inline-block;
+    text-align:justify;
+    text-align-last:justify;}
     .main-content blockquote > :first-child {
       margin-top: 0; }
     .main-content blockquote > :last-child {
@@ -212,7 +241,10 @@ a {
       padding: 0;
       margin-top: 1rem;
       font-size: 1rem;
-      font-weight: bold; }
+      font-weight: bold; 
+	  display: inline-block;
+      text-align:justify;
+      text-align-last:justify;}
     .main-content dl dd {
       padding: 0;
       margin-bottom: 1rem; }
@@ -222,6 +254,9 @@ a {
     margin: 1rem 0;
     background-color: #eff0f1;
     border: 0;
+	display: inline-block;
+    text-align:justify;
+    text-align-last:justify;
 	}
 
 .site-footer {
